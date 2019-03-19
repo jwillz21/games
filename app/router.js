@@ -7,6 +7,7 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('tic-tac-toe', {path: '/tic-tac-toe'});
 });
 
 export default Router;
